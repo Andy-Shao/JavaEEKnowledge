@@ -25,6 +25,7 @@
 			<artifactId>javaee-api</artifactId>
 			<version>6.0</version>
 		</dependency>
+		 -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -45,7 +46,6 @@
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
 		</dependency>
-		 -->
 	</dependencies>
 	<build>
 		<finalName>JavaEEKnowledge</finalName>
