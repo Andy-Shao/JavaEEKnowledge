@@ -8,58 +8,58 @@ import javax.faces.bean.SessionScoped;
 
 @ManagedBean
 @SessionScoped
-public class UserNumberBean implements Serializable{
-	private static final long serialVersionUID = 5538691907367199213L;
+public class UserNumberBean implements Serializable {
+    private static final long serialVersionUID = 5538691907367199213L;
 
-	Integer randomInt = null;
-	Integer userNumber = null;
-	String response = null;
-	private long maximum = 10;
-	private long minimum = 0;
-	
-	public UserNumberBean() {
-		Random randomGR = new Random();
-		randomInt = new Integer(randomGR.nextInt(10));
-		System.out.println("Duke's number: " + randomInt);
-	}
+    private long maximum = 10;
+    private long minimum = 0;
+    Integer randomInt = null;
+    String response = null;
+    Integer userNumber = null;
 
-	public Integer getRandomInt() {
-		return randomInt;
-	}
+    public UserNumberBean() {
+        Random randomGR = new Random();
+        this.randomInt = new Integer(randomGR.nextInt(10));
+        System.out.println("Duke's number: " + this.randomInt);
+    }
 
-	public void setRandomInt(Integer randomInt) {
-		this.randomInt = randomInt;
-	}
+    public long getMaximum() {
+        return this.maximum;
+    }
 
-	public Integer getUserNumber() {
-		return userNumber;
-	}
+    public long getMinimum() {
+        return this.minimum;
+    }
 
-	public void setUserNumber(Integer userNumber) {
-		this.userNumber = userNumber;
-	}
+    public Integer getRandomInt() {
+        return this.randomInt;
+    }
 
-	public String getResponse() {
-		if ((userNumber != null) && (userNumber.compareTo(randomInt) == 0)) {
+    public String getResponse() {
+        if ((this.userNumber != null) && (this.userNumber.compareTo(this.randomInt) == 0)) {
             return "Yay! You got it!";
         } else {
-            return "Sorry, " + userNumber + " is incorrect.";
+            return "Sorry, " + this.userNumber + " is incorrect.";
         }
-	}
+    }
 
-	public long getMaximum() {
-		return maximum;
-	}
+    public Integer getUserNumber() {
+        return this.userNumber;
+    }
 
-	public void setMaximum(long maximum) {
-		this.maximum = maximum;
-	}
+    public void setMaximum(long maximum) {
+        this.maximum = maximum;
+    }
 
-	public long getMinimum() {
-		return minimum;
-	}
+    public void setMinimum(long minimum) {
+        this.minimum = minimum;
+    }
 
-	public void setMinimum(long minimum) {
-		this.minimum = minimum;
-	}
+    public void setRandomInt(Integer randomInt) {
+        this.randomInt = randomInt;
+    }
+
+    public void setUserNumber(Integer userNumber) {
+        this.userNumber = userNumber;
+    }
 }
