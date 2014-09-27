@@ -1,0 +1,32 @@
+.styleClazz{
+font-size:1em;
+color:blue;
+border-style:solid;
+border-color:red;
+border-width: 1px;
+}
+.headerClazz{
+background-color:#3F536B;
+font-size:1.5em;
+color:white;
+text-align:center;
+}
+.footerClazz{
+background-color:#3F536B;
+font-size:1.5em;
+color:white;
+text-align:center;
+}
+.row1{
+background-color:#FFFFFF;
+}
+.row2{
+background-color:#C9D3E0;
+}
+.column1{
+border-style:solid;
+border-color:red;
+border-width: 1px;
+}
+.column2{
+}
