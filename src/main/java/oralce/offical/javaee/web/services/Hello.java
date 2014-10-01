@@ -16,12 +16,12 @@ public class Hello {
 	}
 	
 	/**
-	 * wsimport -keep -p com.demo.client http://localhost:8080/WebService/HelloService?wsdl
+	 * wsimport -keep -p oralce.offical.javaee.web.services.client http://localhost:8081/WebService/HelloService?wsdl
 	 * @param args
 	 */
 	public static void main(String[] args) {
 	
-		Endpoint.publish("http://localhost:8080/WebService/HelloService", new Hello());
+		Endpoint.publish("http://localhost:8081/WebService/HelloService", new Hello());
 		System.out.println("is Success?");
 	}
 }
