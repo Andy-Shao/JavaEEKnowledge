@@ -27,7 +27,7 @@
 	
 	<!-- restful web services START-->
 	<servlet>
-     <servlet-name>Jersey Web Application</servlet-name>
+     <servlet-name>My JAX-RS Resource</servlet-name>
      <servlet-class>
          com.sun.jersey.spi.container.servlet.ServletContainer
      </servlet-class>
@@ -42,8 +42,8 @@
             <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet-mapping>
-     <servlet-name>Jersey Web Application</servlet-name>
-         <url-pattern>/rest/*</url-pattern>
+     <servlet-name>My JAX-RS Resource</servlet-name>
+         <url-pattern>/resources/*</url-pattern>
     </servlet-mapping>
     <!-- restful web services END -->
 
