@@ -1,5 +1,7 @@
 package oralce.offical.javaee.web.services;
 
+import org.junit.Test;
+
 import oralce.offical.javaee.web.services.client.HelloService;
 
 public class HelloTest {
@@ -9,4 +11,6 @@ public class HelloTest {
 		System.out.println(ms.sayHello("Andy Shao"));
 	}
 
+	@Test
+	public void test(){}
 }
