@@ -12,6 +12,12 @@
 		<param-name>javax.faces.PROJECT_STAGE</param-name>
 		<param-value>Development</param-value>
 	</context-param>
+	
+	<!-- web services START -->
+	<listener>
+	   <listener-class>andy.shao.web.services.HelloWorldWebServiceListener</listener-class>
+	</listener>
+	<!-- web services STOP -->
 
     <!-- faces START -->
     <!-- <context-param>  

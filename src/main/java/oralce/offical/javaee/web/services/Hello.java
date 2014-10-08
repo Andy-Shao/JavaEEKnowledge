@@ -17,7 +17,7 @@ public class Hello {
 	
 	/**
 	 * wsimport -keep -p oralce.offical.javaee.web.services.client http://localhost:8081/WebService/HelloService?wsdl
-	 * @param args
+	 * @param args input
 	 */
 	public static void main(String[] args) {
 	
