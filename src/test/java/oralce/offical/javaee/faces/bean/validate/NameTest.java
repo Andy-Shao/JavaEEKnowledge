@@ -7,6 +7,8 @@ import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 
+import org.hamcrest.Matchers;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -25,7 +27,6 @@ public class NameTest {
 		
 		Set<ConstraintViolation<Name>> constraintViolations = validator.validate(name);
 		
-		for(ConstraintViolation<Name> constraintViolation : constraintViolations)
-			System.out.println(constraintViolation.getMessage());
+		Assert.assertThat(constraintViolations.size(), Matchers.is(2));
 	}
 }
