@@ -25,20 +25,22 @@
 			<artifactId>Useful-Tools</artifactId>
 			<version>2.0</version>
 		</dependency>
+		<!-- JSF START -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
 			<version>2.2.8-02</version>
 		</dependency>
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-		</dependency>
-		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-impl</artifactId>
 			<version>2.2.8-02</version>
+		</dependency>
+		<!-- JSF END -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -50,11 +52,14 @@
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
 		</dependency>
+		<!-- web service START -->
 		<dependency>
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>2.0.1</version>
 		</dependency>
+		<!-- web service END -->
+		<!-- resource START -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
@@ -65,6 +70,34 @@
 			<artifactId>jersey-servlet</artifactId>
 			<version>1.18.1</version>
 		</dependency>
+		<!-- resource END -->
+		<!-- bean validation START -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.1.2.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator-cdi</artifactId>
+			<version>5.1.2.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>javax.el-api</artifactId>
+			<version>2.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>javax.el</artifactId>
+			<version>2.2.4</version>
+		</dependency>
+		<!-- bean validation END -->
 	</dependencies>
 	<build>
 		<finalName>JavaEEKnowledge</finalName>
