@@ -37,7 +37,7 @@ public class HelloWorldResource {
 
 	@GET
 	@POST
-	@Path("{id}")
+	@Path("/getPath/{id}")
 	@Produces("text/plain")
 	public String getPath(@PathParam("id") int id) {
 		return Convert.OB_2_STR.convert(id);
