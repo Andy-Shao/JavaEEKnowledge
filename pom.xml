@@ -42,11 +42,8 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>jstl</artifactId> 
+			<version>1.2</version> </dependency> -->
 		<dependency>
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
@@ -98,16 +95,23 @@
 			<version>2.2.4</version>
 		</dependency>
 		<!-- bean validation END -->
+		<!-- enterprise bean START -->
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>javax.ejb-api</artifactId>
+			<version>3.2</version>
+		</dependency>
+		<!-- enterprise bean END -->
 	</dependencies>
 	<build>
 		<finalName>JavaEEKnowledge</finalName>
 		<resources>
-		  <resource>
-		      <directory>src/main/resources</directory>
-		      <includes>
-		          <include>**/*</include>
-		      </includes>
-		  </resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
 		</resources>
 		<plugins>
 			<plugin>
