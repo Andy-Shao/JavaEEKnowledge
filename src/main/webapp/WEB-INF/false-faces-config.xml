@@ -71,11 +71,12 @@
         <from-outcome>success</from-outcome>
       <to-view-id>/greeting.xhtml</to-view-id>
     </navigation-case>
-  </navigation-rule> -->
+  </navigation-rule> 
 
 <converter>
     <converter-id>integer</converter-id>
     <converter-class>javax.faces.convert.IntegerConverter</converter-class>
 </converter>
+  -->
 </faces-config>
 
