@@ -1,4 +1,4 @@
-package andy.shao.web.services;
+package andy.shao.javaee.web.services;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;

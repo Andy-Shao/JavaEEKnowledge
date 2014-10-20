@@ -2,6 +2,9 @@ package andy.shao.web.services;
 
 import javax.xml.ws.Endpoint;
 
+import andy.shao.javaee.web.services.HelloWorld;
+import andy.shao.javaee.web.services.HelloWorldImpl;
+
 public class Servers {
 
 	public Servers() {

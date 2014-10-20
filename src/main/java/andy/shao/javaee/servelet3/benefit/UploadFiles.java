@@ -1,4 +1,4 @@
-package andy.shao.servelet3.benefit;
+package andy.shao.javaee.servelet3.benefit;
 
 import java.io.IOException;
 
