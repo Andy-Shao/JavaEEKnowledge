@@ -19,7 +19,7 @@
 	
 	<!-- web services START -->
 	<listener>
-	   <listener-class>andy.shao.web.services.HelloWorldWebServiceListener</listener-class>
+	   <listener-class>andy.shao.javaee.web.services.HelloWorldWebServiceListener</listener-class>
 	</listener>
 	<!-- web services STOP -->
 
