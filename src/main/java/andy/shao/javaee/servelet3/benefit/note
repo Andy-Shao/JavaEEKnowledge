@@ -1,5 +1,0 @@
-插件式开发：
-
-新增的插件式开发支持则将 Servlet 配置的灵活性提升到了新的高度。使用该特性，现在我们可以在不修改已有 Web 应用的前提下，只需将按照一定格式打成的 JAR 包放到 WEB-INF/lib 目录下，即可实现新功
-能的扩充，不需要额外的配置。指定格式的JAR包中的META-INF 目录下含有“Web 模块部署描述符片段”的 web-fragment.xml 部署描述文件。该文件的格式类似于web.xml，只是头部声明的 XSD 引用不同。
-在eclipse中新建一个Web Fragment Project，如下图所示，勾选Add project to a Dynamic Web Project，选择上面创建的Servlet3工程，该fragment便会自动包含进Servlet3中。
