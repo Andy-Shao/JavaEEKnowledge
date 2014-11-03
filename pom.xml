@@ -25,11 +25,13 @@
             <artifactId>Useful-Tools</artifactId>
             <version>3.0</version>
         </dependency>
+<!--
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>6.0</version>
         </dependency>
+-->
     </dependencies>
     <build>
         <finalName>JavaEEKnowledge</finalName>
