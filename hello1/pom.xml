@@ -14,4 +14,17 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <build>
+    <finalName>hello1</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <warName>hello1</warName>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
 </project>
