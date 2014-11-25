@@ -7,6 +7,10 @@
     <version>1.0-SNAPSHOT</version>
     <name>JavaEEKnowledge</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>hello1</module>
+        <module>hello2</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -83,7 +87,4 @@
             </plugin>
         </plugins>
     </build>
-  <modules>
-    <module>hello1</module>
-  </modules>
 </project>
