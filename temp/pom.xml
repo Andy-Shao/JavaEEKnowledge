@@ -7,6 +7,7 @@
     <artifactId>JavaEEKnowledge</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
+  <groupId>andy.shao.javaee7.temp</groupId>
   <artifactId>temp</artifactId>
   <name>temp</name>
   <url>http://maven.apache.org</url>
@@ -14,4 +15,17 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <build>
+    <finalName>temp</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <warName>temp</warName>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
 </project>
