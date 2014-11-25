@@ -10,6 +10,7 @@
     <modules>
         <module>hello1</module>
         <module>hello2</module>
+        <module>guessnumber_jsf</module>
     </modules>
     <dependencies>
         <dependency>
