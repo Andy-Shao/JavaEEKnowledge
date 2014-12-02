@@ -11,6 +11,7 @@
         <module>hello1</module>
         <module>hello2</module>
         <module>guessnumber_jsf</module>
+	<module>hello1-rlc</module>
     </modules>
     <dependencies>
         <dependency>
