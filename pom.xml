@@ -12,6 +12,7 @@
         <module>hello2</module>
         <module>guessnumber_jsf</module>
 	<module>hello1-rlc</module>
+	<module>reservation</module>
     </modules>
     <dependencies>
         <dependency>
