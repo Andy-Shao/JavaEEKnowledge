@@ -13,6 +13,7 @@
         <module>guessnumber_jsf</module>
 	<module>hello1-rlc</module>
 	<module>reservation</module>
+	<module>bookmarks</module>
     </modules>
     <dependencies>
         <dependency>
