@@ -14,6 +14,7 @@
 	<module>hello1-rlc</module>
 	<module>reservation</module>
 	<module>bookmarks</module>
+	<module>compositecomponentexample</module>
     </modules>
     <dependencies>
         <dependency>
