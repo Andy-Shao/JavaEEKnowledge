@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>andy.shao.javaee7</groupId>
-    <artifactId>JavaEEKnowledge</artifactId>
+    <groupId>andy.shao.javaee7.jsf</groupId>
+    <artifactId>jsf</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>andy.shao.javaee7.hello1_rlc</groupId>

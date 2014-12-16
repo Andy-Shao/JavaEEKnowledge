@@ -22,5 +22,6 @@
     <module>guessnumber_jsf</module>
     <module>reservation</module>
     <module>hello2</module>
+    <module>hello1-rlc</module>
   </modules>
 </project>
