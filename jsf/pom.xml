@@ -19,5 +19,8 @@
     <module>bookmarks</module>
     <module>compositecomponentexample</module>
     <module>dukes-bookstore</module>
+    <module>guessnumber_jsf</module>
+    <module>reservation</module>
+    <module>hello2</module>
   </modules>
 </project>

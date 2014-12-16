@@ -8,10 +8,7 @@
     <name>JavaEEKnowledge</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>hello2</module>
-        <module>guessnumber_jsf</module>
 	<module>hello1-rlc</module>
-	<module>reservation</module>
 	<module>jsf</module>
     </modules>
     <dependencies>
