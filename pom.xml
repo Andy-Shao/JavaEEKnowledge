@@ -15,6 +15,7 @@
 	<module>reservation</module>
 	<module>bookmarks</module>
 	<module>compositecomponentexample</module>
+	<module>dukes-bookstore</module>
     </modules>
     <dependencies>
         <dependency>
