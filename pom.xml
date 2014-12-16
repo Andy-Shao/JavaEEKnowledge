@@ -12,7 +12,6 @@
         <module>guessnumber_jsf</module>
 	<module>hello1-rlc</module>
 	<module>reservation</module>
-	<module>compositecomponentexample</module>
 	<module>dukes-bookstore</module>
 	<module>jsf</module>
     </modules>

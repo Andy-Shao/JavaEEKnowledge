@@ -17,5 +17,6 @@
     <module>simple-flow</module>
     <module>hello1</module>
     <module>bookmarks</module>
+    <module>compositecomponentexample</module>
   </modules>
 </project>
