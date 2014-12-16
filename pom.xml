@@ -16,6 +16,7 @@
 	<module>bookmarks</module>
 	<module>compositecomponentexample</module>
 	<module>dukes-bookstore</module>
+	<module>jsf</module>
     </modules>
     <dependencies>
         <dependency>
