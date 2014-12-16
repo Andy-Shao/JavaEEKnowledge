@@ -16,5 +16,6 @@
   <modules>
     <module>simple-flow</module>
     <module>hello1</module>
+    <module>bookmarks</module>
   </modules>
 </project>
