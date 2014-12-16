@@ -18,5 +18,6 @@
     <module>hello1</module>
     <module>bookmarks</module>
     <module>compositecomponentexample</module>
+    <module>dukes-bookstore</module>
   </modules>
 </project>
