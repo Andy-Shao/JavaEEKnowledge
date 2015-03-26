@@ -18,11 +18,11 @@
     <module>hello1</module>
     <module>bookmarks</module>
     <module>compositecomponentexample</module>
-    <module>dukes-bookstore</module>
     <module>guessnumber_jsf</module>
     <module>reservation</module>
     <module>hello2</module>
     <module>hello1-rlc</module>
     <module>checkout-module</module>
+    <module>ajaxguessnumber</module>
   </modules>
 </project>
