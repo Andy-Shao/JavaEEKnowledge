@@ -14,5 +14,6 @@
   <packaging>pom</packaging>
 
   <modules>
+  <module>hello1</module>
   </modules>
 </project>
