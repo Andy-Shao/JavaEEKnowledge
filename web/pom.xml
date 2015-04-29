@@ -16,5 +16,6 @@
   <modules>
     <module>jsf</module>
     <module>servlet</module>
+    <module>case-studies</module>
   </modules>
 </project>
