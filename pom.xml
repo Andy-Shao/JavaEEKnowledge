@@ -1,12 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>andy.shao.java</groupId>
+    <groupId>andy.shao.javaee7</groupId>
     <artifactId>JavaEEKnowledge</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>JavaEEKnowledge</name>
     <url>http://maven.apache.org</url>
+    <modules>
+	<module>ch1</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -24,6 +27,11 @@
             <groupId>com.github.Andy-Shao</groupId>
             <artifactId>Gear</artifactId>
             <version>2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
         </dependency>
     </dependencies>
     <build>
@@ -56,6 +64,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.7</version>
+                <configuration>
+                    <charset>UTF-8</charset>
+                    <docencoding>UTF-8</docencoding>
+                    <javadocVersion>1.8</javadocVersion>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
