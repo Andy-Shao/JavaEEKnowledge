@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import javax.servlet.ServletContext;
 
 public class Predictions {
+    //** properties
     private AtomicInteger mapKey;
     private ConcurrentMap<Integer , Prediction> predictions;
     private ServletContext sctx;
@@ -21,8 +22,6 @@ public class Predictions {
         this.predictions = new ConcurrentHashMap<Integer , Prediction>();
         this.mapKey = new AtomicInteger();
     }
-
-    //** properties
 
     public int addPrediction(Prediction p) {
         int id = this.mapKey.incrementAndGet();
@@ -55,7 +54,6 @@ public class Predictions {
             InputStreamReader isr = new InputStreamReader(in);
             BufferedReader reader = new BufferedReader(isr);
 
-            int i = 0;
             String record = null;
             while ((record = reader.readLine()) != null) {
                 String[] parts = record.split("!");

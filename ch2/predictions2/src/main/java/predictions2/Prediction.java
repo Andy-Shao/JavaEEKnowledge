@@ -6,9 +6,6 @@ import java.io.Serializable;
 // into an XML or JSON document, which is returned to 
 // the consumer on a request. 
 public class Prediction implements Serializable , Comparable<Prediction> {
-    /**
-     * 
-     */
     private static final long serialVersionUID = -6258036711691832468L;
     private int id; // identifier used as lookup-key
     private String what; // his/her prediction
