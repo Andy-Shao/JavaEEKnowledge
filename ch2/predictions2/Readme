@@ -2,3 +2,10 @@ To compile/deploy: ant -Dwar.name=predictions2 deploy
 
 The file curls.txt includes sample curl tests against the deployed service.
 
+* 新的Prediction可以用于正文应该有两个“键/值”对（一个who键，其值是预测者的名称，和一个what键，
+其值是预测）的POST请求来创建。
+* 可以用GET请求一次一个地读取Prediction对象或将它们全部一起读取。如果GET请求有查询字符串，
+其中包含一个id键，那么如果有相应的Prediction的完整列表。对返回它。如果GET请求没有查询字符串，
+那么将返回Prediction的完整列表。对于任何GET请求，客户端可以表明优先JSON格式而不是默认的XML格式。
+* 指定的Prediction可以用提供了Prediction标识符以及一个新的who或一个新的what的PUT请求更新。
+* 指定的Prediction可以被删除。
