@@ -1,3 +1,6 @@
 1. Compile/deploy in the usual way: ant -Dwar.name=adages deploy
 2. Testing can be done with a curl script:  http://localhost:8080/adages/resourcesA/
 
+* AdagesPublisher可以脱离web容器发布JAR-RS.但是由于使用了sun的内部类.个人建议不使用这种方式
+要编译它，JAR文件jersey-core.jar必须在classpath中.要运行它,jerser-server.jar必须在classpath中.
+
