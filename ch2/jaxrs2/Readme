@@ -2,3 +2,9 @@
 2. The base URL is: http://localhost:8080/predictions3/resourcesP/.
 3. Various curl scripts or the equivalent can be used to confirm that the CRUD operations are supported.
 
+
+* PredictionRS类是REST式资源，一个其方法带有诸如@GET和@POST注解以支持标准的CRUD操作的POJO类。此资源支持XML、
+JSON和纯文本的MIME类型的请求。GET请求也可以请求所有的预测或请求特定的一个预测。
+* Prediction类也是一个POJO类，它具有两个从之前的例子来的属性：who是预测的作者，what是预测本身。还有一个id属性，
+它的值唯一地标识每一个Prediction实例，Prediction实例按id升序排列存储在PredictionsList中，它将在下一个列表条目
+中解释。
