@@ -1,48 +1,53 @@
 package predictions3;
 
-import javax.xml.bind.annotation.XmlRootElement; 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "prediction")
 public class Prediction implements Comparable<Prediction> {
-    private String who;   // person
-    private String what;  // his/her prediction
-    private int    id;    // identifier used as lookup-key
-
-    public Prediction() { }
-
-    @Override
-    public String toString() {
-	return String.format("%2d: ", id) + who + " ==> " + what + "\n";
-    }
-    
     //** properties
-    public void setWho(String who) {
-	this.who = who;
-    }
-    @XmlElement
-    public String getWho() {
-	return this.who;
-    }
+    private int id; // identifier used as lookup-key
+    private String what; // his/her prediction
+    private String who; // person
 
-    public void setWhat(String what) {
-	this.what = what;
-    }
-    @XmlElement
-    public String getWhat() {
-	return this.what;
-    }
-
-    public void setId(int id) {
-	this.id = id;
-    }
-    @XmlElement
-    public int getId() {
-	return this.id;
+    public Prediction() {
     }
 
     // implementation of Comparable interface
+    @Override
     public int compareTo(Prediction other) {
-	return this.id - other.id;
-    }	
+        return this.id - other.id;
+    }
+
+    @XmlElement
+    public int getId() {
+        return this.id;
+    }
+
+    @XmlElement
+    public String getWhat() {
+        return this.what;
+    }
+
+    @XmlElement
+    public String getWho() {
+        return this.who;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setWhat(String what) {
+        this.what = what;
+    }
+
+    public void setWho(String who) {
+        this.who = who;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%2d: " , this.id) + this.who + " ==> " + this.what + "\n";
+    }
 }
