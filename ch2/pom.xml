@@ -16,5 +16,6 @@
   <modules>
       <module>predictions2</module>
       <module>jaxrs1</module>
+      <module>jaxrs2</module>
   </modules>
 </project>
