@@ -28,4 +28,41 @@
         </plugin>
     </plugins>
   </build>
+  <dependencies>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/org.json.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.restlet</groupId>
+        <artifactId>restlet</artifactId>
+        <version>0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/org.restlet.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.restlet.ext.xml</groupId>
+        <artifactId>restlet-ext-xml</artifactId>
+        <version>0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/org.restlet.ext.xml.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.restlet.ext.servlet</groupId>
+        <artifactId>restlet-ext-servlet</artifactId>
+        <version>0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/org.restlet.ext.servlet.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.restlet.ext.json</groupId>
+        <artifactId>restlet-ext-json</artifactId>
+        <version>0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/org.restlet.ext.json.jar</systemPath>
+    </dependency>
+  </dependencies>
 </project>
