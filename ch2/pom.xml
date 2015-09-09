@@ -18,5 +18,6 @@
       <module>jaxrs1</module>
       <module>jaxrs2</module>
       <module>restlet</module>
+      <module>jaxws</module>
   </modules>
 </project>
