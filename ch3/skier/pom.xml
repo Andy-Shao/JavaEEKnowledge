@@ -18,5 +18,18 @@
   
   <build>
     <finalName>skier</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>Marshal</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>
