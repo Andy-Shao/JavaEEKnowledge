@@ -3,18 +3,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>andy.shao.javaee7</groupId>
-    <artifactId>JavaEEKnowledge</artifactId>
+    <groupId>andy.shao.javaee7.ch3</groupId>
+    <artifactId>ch3</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>andy.shao.javaee7.ch3</groupId>
-  <artifactId>ch3</artifactId>
-  <name>ch3</name>
+  <groupId>andy.shao.javaee7.skier</groupId>
+  <artifactId>skier</artifactId>
+  <name>skier</name>
   <url>http://maven.apache.org</url>
-  <packaging>pom</packaging>
-
-  <modules>
-      <module>amazon1</module>
-      <module>skier</module>
-  </modules>
+  <packaging>jar</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <build>
+    <finalName>skier</finalName>
+  </build>
 </project>
