@@ -2,3 +2,4 @@ To execute: java -jar Amazon1.jar <accessId> <secretKey>
 
 The source files RestfulAmazon.java and RequestHelper.java are included in the JAR file.
 
+NOTE: can not run because don't have the amazon account
