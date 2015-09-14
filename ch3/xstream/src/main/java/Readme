@@ -1,0 +1,4 @@
+java -classpath xstream.jar basic.JsonTest
+java -classpath xstream.jar basic.Main
+
+java -classpath xstream.jar converter.Main

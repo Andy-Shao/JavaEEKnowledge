@@ -1,0 +1,7 @@
+/*
+<skier>
+  <name>Bjoern Daehlie</name>
+  <age>49</age>
+  <gender>Male</gender>
+</skier>
+*/

@@ -16,5 +16,6 @@
   <modules>
       <module>amazon1</module>
       <module>skier</module>
+      <module>xstream</module>
   </modules>
 </project>
