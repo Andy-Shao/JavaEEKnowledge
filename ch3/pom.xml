@@ -17,5 +17,6 @@
       <module>amazon1</module>
       <module>skier</module>
       <module>xstream</module>
+      <module>amazon2</module>
   </modules>
 </project>
