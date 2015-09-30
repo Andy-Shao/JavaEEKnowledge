@@ -19,5 +19,6 @@
       <module>xstream</module>
       <module>amazon2</module>
       <module>cta</module>
+      <module>wadl</module>
   </modules>
 </project>
