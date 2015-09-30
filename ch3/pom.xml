@@ -22,5 +22,6 @@
       <module>wadl</module>
       <module>jaxrsClient</module>
       <module>cds</module>
+      <module>poll</module>
   </modules>
 </project>
