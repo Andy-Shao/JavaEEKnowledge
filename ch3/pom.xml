@@ -18,5 +18,6 @@
       <module>skier</module>
       <module>xstream</module>
       <module>amazon2</module>
+      <module>cta</module>
   </modules>
 </project>
