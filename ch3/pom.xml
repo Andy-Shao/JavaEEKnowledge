@@ -20,5 +20,6 @@
       <module>amazon2</module>
       <module>cta</module>
       <module>wadl</module>
+      <module>jaxrsClient</module>
   </modules>
 </project>

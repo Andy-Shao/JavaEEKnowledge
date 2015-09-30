@@ -1,0 +1,4 @@
+To compile and execute: ant -f runJerseyClient.xml
+
+Have to has deploied the ch2/predictions2 projection before then just run the jar.
+
