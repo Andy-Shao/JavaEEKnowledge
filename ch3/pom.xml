@@ -21,5 +21,6 @@
       <module>cta</module>
       <module>wadl</module>
       <module>jaxrsClient</module>
+      <module>cds</module>
   </modules>
 </project>
