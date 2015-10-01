@@ -15,5 +15,6 @@
 
   <modules>
       <module>randomTcat</module>
+      <module>random</module>
   </modules>
 </project>
