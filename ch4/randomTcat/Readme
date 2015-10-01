@@ -5,8 +5,15 @@ curl http://localhost:8080/rs?wsdl
 The clients in the random subdirectory can be modified to go against the Tomcat-deployed version by
 changing the URLs.
 
+#wsimport
 You could use the wsimport command build the client method.
 e.g.
 wsimport -p client -keep http://localhost:8080/rs?wsdl
 -p - package name
 -keep - keep the codes
+
+#wsgen
+wsgen -cp . -wsdl rand.RandService
+Create a WSDL file which name is RandServiceService.wsdl
+wsgen -cp . rand.RandService
+Create the JAX-B 构件
