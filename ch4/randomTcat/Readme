@@ -1,8 +1,12 @@
 ant -Dwar.name=rand deploy
 
-curl http://localhost:8080/rand?wsdl
+curl http://localhost:8080/rs?wsdl
 
 The clients in the random subdirectory can be modified to go against the Tomcat-deployed version by
 changing the URLs.
 
-
+You could use the wsimport command build the client method.
+e.g.
+wsimport -p client -keep http://localhost:8080/rs?wsdl
+-p - package name
+-keep - keep the codes
