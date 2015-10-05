@@ -12,7 +12,7 @@ import javax.xml.ws.WebServiceFeature;
 
 
 @WebServiceClient(name = "RandServiceService" , targetNamespace = "http://rand/" ,
-    wsdlLocation = "http://localhost:8888/rs?wsdl")
+    wsdlLocation = "http://localhost:8080/rs?wsdl")
 public class RandServiceService extends Service {
 
     private final static Logger logger = Logger.getLogger(clientAsync.RandServiceService.class.getName());
@@ -23,10 +23,10 @@ public class RandServiceService extends Service {
         try {
             URL baseUrl;
             baseUrl = clientAsync.RandServiceService.class.getResource(".");
-            url = new URL(baseUrl , "http://localhost:8888/rs?wsdl");
+            url = new URL(baseUrl , "http://localhost:8080/rs?wsdl");
         } catch (MalformedURLException e) {
             RandServiceService.logger
-                .warning("Failed to create URL for the wsdl Location: 'http://localhost:8888/rs?wsdl', retrying as a local file");
+                .warning("Failed to create URL for the wsdl Location: 'http://localhost:8080/rs?wsdl', retrying as a local file");
             RandServiceService.logger.warning(e.getMessage());
         }
         RANDSERVICESERVICE_WSDL_LOCATION = url;

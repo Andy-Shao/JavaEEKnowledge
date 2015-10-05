@@ -3,5 +3,12 @@ The clients can be compiled and executed straightforwardly.
 
 The misc subdirectory contains various XML files used to create the artifacts in the subdirectories.
 
+#Synchronous client build command
+wsimport -p clientAsync -keep http://localhost:8080/rs?wsdl
+
+#Async client build command
+wsimport -p clientAsync -keep http://localhost:8080/rs?wsdl -b src/main/java/misc/customAsync.xml
+
 try to run the files
 java -classpath target/random.jar RandClient
+java -classpath target/random.jar RandClientAsync
