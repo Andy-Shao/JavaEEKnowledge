@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>andy.shao.javaee7.ch5</groupId>
+    <artifactId>ch5</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>andy.shao.javaee7.predictionsSOAP</groupId>
+  <artifactId>predictionsSOAP</artifactId>
+  <name>predictionsSOAP</name>
+  <url>http://maven.apache.org</url>
+  <packaging>war</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.glassfish.metro</groupId>
+        <artifactId>webservices-rt</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>1.10</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>predictionsSOAP</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <warName>soap</warName>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
+</project>
