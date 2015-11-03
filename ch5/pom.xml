@@ -15,5 +15,6 @@
 
   <modules>
       <module>predictionsSOAP</module>
+      <module>predictionsSOAPClient</module>
   </modules>
 </project>
