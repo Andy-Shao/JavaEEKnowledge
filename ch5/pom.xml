@@ -17,5 +17,6 @@
       <module>predictionsSOAP</module>
       <module>predictionsSOAPClient</module>
       <module>mtom</module>
+      <module>transportLevel</module>
   </modules>
 </project>
