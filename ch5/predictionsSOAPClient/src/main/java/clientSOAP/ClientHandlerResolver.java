@@ -21,6 +21,7 @@ public class ClientHandlerResolver implements HandlerResolver {
     public List<Handler> getHandlerChain(PortInfo portInfo) {
         List<Handler> handlerChain = new ArrayList<>();
         handlerChain.add(new ClientHashHandler(this.name , this.key));
+        handlerChain.add(new IdLogicalHandler());
         return handlerChain;
     }
 

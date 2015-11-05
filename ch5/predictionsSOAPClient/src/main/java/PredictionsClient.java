@@ -56,7 +56,7 @@ public class PredictionsClient {
         this.msg("putTest results");
         String who = "FooBarBaz";
         String what = null; // shouldn't change
-        int id = 0;
+        int id = -1;
         String res = port.edit(id , who , what);
         System.out.println(res);
         System.out.println("Confirming:");
