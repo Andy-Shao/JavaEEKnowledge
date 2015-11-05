@@ -1,0 +1,21 @@
+package clientBase64;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "getImage" , propOrder = { "arg0" })
+public class GetImage {
+
+    protected String arg0;
+
+    public String getArg0() {
+        return this.arg0;
+    }
+
+    public void setArg0(String value) {
+        this.arg0 = value;
+    }
+
+}

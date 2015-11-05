@@ -16,5 +16,6 @@
   <modules>
       <module>predictionsSOAP</module>
       <module>predictionsSOAPClient</module>
+      <module>mtom</module>
   </modules>
 </project>
