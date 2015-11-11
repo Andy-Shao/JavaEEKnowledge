@@ -1,0 +1,13 @@
+The axis.war is included, although a more recent version may be available.
+The hi.aar file is ready for deployment (see the book for details), after which
+the client can be executed to confirm.
+
+#How to publish 
+I.download Axis2 files axis2.jar. Copy axis2.jar under webapps in TOMCAT_HOME.
+II. Any of Axis2's projection copy to ${TOMCAT_HOME}/webapps/axis2/WEB-INF/services.
+III. Build any jar and configure files in a .aar file.
+IV. copy this .aar file under the ${TOMCAT_HOME}/webapps/axis2/WEB-INF/services.
+V. After this operation. You are finished and you could use 'wsimport' command do 
+want you want to do.
+For example:
+wsimport -p clientAxis2 -keep http://localhost:8080/axis2/services/hi?wsdl
