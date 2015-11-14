@@ -15,5 +15,6 @@
 
   <modules>
   <module>https</module>
+  <module>httpsPublisher</module>
   </modules>
 </project>
