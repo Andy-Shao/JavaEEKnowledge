@@ -1,6 +1,6 @@
 javac *.java
 javac service/*.java
-java HttpsPublisher
+java HttpsPublisher service.TestService /test
 
 In a new command-prompt window:
 java HttpsClient
